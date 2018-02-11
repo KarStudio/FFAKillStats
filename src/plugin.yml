@@ -1,0 +1,15 @@
+name: FFAKillStats
+main: top.karpvp.normalpvp.killstats.Main
+version: 0.0.3 - alpha
+author: listenstation
+depend: [SQLibrary]
+commands:
+  Killstats:
+    description: 查看战绩
+    aliases: [ks]
+  Killstatsadmin:
+    description: 管理战绩
+    permission: Normalpvp.killstats.Admin
+    permission-message: 没有权限
+    aliases: [ksa]
+    
